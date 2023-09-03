@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <form action="backend.php">
+        
+        <div class="c2">
+            <div>
+                <h2 class="h">Login with Coursify</h2>
+                <br>
+            <!--label for="myName" class="c1"> Name</label-->
+            <input type="text" placeholder="Username" id="myName"  name="myName" required>
+            </div>
+            <br>
+            <div>
+                <!--label for="myEmail" class="c1">Email</label-->
+                <input type="email" placeholder="Enter your Email" name="myEmail" id="myEmail" required>
+    
+            </div>
+            <br>
+        <div>
+            <!--label for="mySubject" class="c1"> Subject </label-->
+            <select subject="choose_subject" id="mySubject"  name="mySubject" required>
+                <option value="DSA">DSA</option>
+                <option value="OS">OS</option>
+                <option value="DBMS">DBMS</option>
+                <option value="CN">CN</option>
+            </select>
+        </div>
+        <br>
+        <div class="btn">
+            <input class="btn-hover" type="submit" value="Submit now">
+            </div>
+            <div class="btn">
+            
+            <input class="btn-hover" type="reset" value="Reset now"></div>
+            
+        </div>
+    </form>
+</body>
+</html>

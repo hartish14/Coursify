@@ -1,0 +1,173 @@
+.h{
+    background-image: url("https://media.istockphoto.com/id/1094922834/vector/binary-background.jpg?s=612x612&w=0&k=20&c=OEGamSEXekm5Q0dRGa1U4DtzgIS_Zq1cCjhjM3D0EWI=");
+    width: 800px;
+    height:300px;
+    border-radius: 8px;
+    margin:auto;
+    padding: auto;
+    padding-top: 130px;
+    margin-top: 10px;
+    text-align:center;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:250%;
+}
+body{
+    background-color: rgb(241, 246, 250);
+}
+.first{
+    text-decoration:none;
+    color:black;
+    
+}
+a:hover{
+    color: rgb(250, 248, 247)
+}
+table,th,td{
+    border:1px solid black;
+    margin:auto
+}
+#subjects {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse:collapse;
+    width:60%;
+}
+#subjects td,#subjects th{
+    border:1px solid #c46d6d;
+    padding:8px;
+}
+#subjects tr:nth-child(even){background-color: #cee0e8;}
+
+#subjects tr:hover {background-color: #7b94b1;}
+
+#subjects th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4747ef;
+  color: white;
+}
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #ededf0;
+  
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(12, 12, 12);
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 20px;
+  
+  
+}
+
+.topnav a:hover {
+  background-color: #faf7f7;
+  color: rgb(48, 115, 203);
+  border-radius: 12px;
+}
+/*
+.topnav a.active {
+  background-color: #d7d3d3;
+  color: rgb(5, 5, 5);
+}*/
+
+.topnav .search-container {
+  float:none;
+  border-radius: 8px;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  border-radius: 8px;
+  width:50%;
+  margin-left:225px;
+}
+
+.topnav .search-container button {
+  float:none;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #858585;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+body {font-family:poppins;}
+
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 3;
+  left: 0;
+  background-color: #f3f3f5;
+  overflow-x: hidden;
+  padding-top: 30px;
+  
+}
+
+.sidebar a {
+  padding: 6px 15px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #000000;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #316ea3;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+.a:hover{
+  border-radius: 8px;
+}

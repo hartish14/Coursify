@@ -1,0 +1,81 @@
+*{
+    margin: 4px;
+    padding: 2px;
+    box-sizing:border-box;
+    font-family:poppins;
+    font-weight:900px;
+    
+}
+input[type=text], input[type=email], select[subject=choose_subject]{
+        background-color:rgb(248, 246, 246) ;
+        color: rgb(134, 129, 129);
+        padding: 16px;
+        margin: auto;
+        margin-left: 8px;
+        text-decoration: none;
+        cursor: pointer;
+        width: 95%;
+        border-radius: 5px;
+        /*box-sizing: border-box;*/
+        font-weight: bold;
+        font-family:serif;
+        border:2px solid rgb(30, 57, 167);
+    }
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    /*background-color: rgb(70, 70, 70);*/
+    background-image: url("https://www.teahub.io/photos/full/239-2394796_blue-hd-sparkle-image-plane-background-image-hd.jpg");
+}
+.c2{
+    position:relative;
+    width:400px;
+    height:460px;
+    /*border: inset;*/
+    background-color: rgb(250, 247, 247);
+   /* border:2px solid rgb(116, 116, 116);*/
+    border-radius:10px;
+    overflow:hidden;
+}
+input[type=button], input[type=submit], input[type=reset]{
+    background-color:rgb(229, 229, 230);
+    border:2px solid rgb(255, 255, 255);
+    width:80%;
+    justify-content:center;
+    align-items:center;
+    border-radius: 15px;
+        box-sizing: border-box;
+        font-weight: bold;
+        font-family:serif;
+        padding: 16px;
+        margin-left:40px;
+        text-decoration: none;
+        cursor: pointer;
+        color: rgb(14, 13, 13);
+}
+.btn:hover{
+    background-color: rgb(250, 247, 247);
+    border:none;
+    width:100%;
+}
+.h{
+    margin:auto;
+    padding: auto;
+    text-align:center;
+    color: rgb(6, 6, 6);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:150%;
+    border-radius: 15px;
+}
+.btn-hover:hover{
+    background-color: rgb(39, 48, 211) !important;
+    color:rgb(255, 255, 255);
+   
+
+}
+
+
+
+

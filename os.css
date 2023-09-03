@@ -1,0 +1,18 @@
+.h{
+    text-align:center;
+    font-size:large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 4vw;
+    text-shadow: 3px 3px 1px #d96060;
+}
+.body{
+    background-color: aliceblue;
+}
+.first{
+    text-decoration:none;
+    color:black;
+    
+}
+a:hover{
+    color: rgb(255, 34, 0)
+}
